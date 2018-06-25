@@ -1,20 +1,23 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace Kwadrat
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string stop="a";
-            
-            while(stop!="koniec")
+            int a, b = 0;
+            for (a = 1; a >= 11; a++) 
             {
-                stop = Console.ReadLine();
-                Console.WriteLine(stop);
+                for(b=1;b>=11;b++)
+                {
+                    if(a==1)
+                    {
+                        Console.WriteLine("_");
+                    }
+                    else()
+                }
             }
-           
-
         }
-    }    
+    }
 }
